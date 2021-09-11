@@ -1,17 +1,20 @@
-import React from 'react'
+import React, {useContext} from 'react';
+import {languageOptions} from '../../../data/language';
+import {LanguageContext} from '../../../context/LanguageContext';
+
 
 const LanguageDropDown = () => {
+    const {userLanguage, userLanguageChange} = useContext(LanguageContext);
+    const handleLanguageChange = (e) => userLanguageChange(e.target.value);
     return (
         <>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown>
+            <select className="form-select" onChange={handleLanguageChange} value={userLanguage}>
+              {Object.entries(languageOptions).map(([id, name]) => 
+              <option key={id} value={id}>{name}</option>
+              )}  
+            </select>
         </>
-    )
-}
+    );
+};
 
-export default LanguageDropDown
+export default LanguageDropDown;

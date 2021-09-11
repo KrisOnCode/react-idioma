@@ -2,6 +2,7 @@ import React from 'react';
 import {Navbar, Container, Nav} from 'react-bootstrap';
 import DarkModeToggle from './DarkModeToggle';
 import NavBrand from './NavBrand';
+import LanguageDropDown from './LanguageDropDown';
 
 const NavBar = () => {
     return (
@@ -14,6 +15,7 @@ const NavBar = () => {
                         <Nav className="me-auto">
                         </Nav>
                         <Nav>
+                        <LanguageDropDown />
                         <DarkModeToggle />
                         </Nav>
                     </Navbar.Collapse>
