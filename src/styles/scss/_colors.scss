@@ -1,0 +1,62 @@
+/* Color Variables */
+
+/* Color Pallete Flat UI*/
+$white: #ffffff;
+$black: #000000;
+$turquoise: #1abc9c;
+$emerland: #2ecc71;
+$peter-river: #3498db;
+$amethyst: #9b59b6;
+$wet-asphalt: #34495e;
+$green-sea: #16a085;
+$nephritis: #27ae60;
+$belize-hole: #2980b9;
+$wisteria: #8e44ad;
+$midnight-blue: #2c3e50;
+$sun-flower: #f1c40f;
+$carrot: #e67e22;
+$alizarin: #e74c3c;
+$clouds: #ecf0f1;
+$concrete: #95a5a6;
+$orange: #f39c12;
+$pumpkin: #d35400;
+$pomegranate: #c0392b;
+$silver: #bdc3c7;
+$asbestos: #7f8c8d;
+
+// Theme Colors 
+$theme-primary: $belize-hole;
+$theme-secondary: $wisteria;
+$theme-danger: $alizarin;
+$theme-success: $nephritis;
+$theme-warning: $sun-flower;
+$theme-info: $peter-river;
+$theme-accent: $pumpkin;
+$theme-background-color: $white;
+$theme-text-color: $midnight-blue;
+
+// Theme Colors Dark Mode
+$theme-primary-darkmode: #63A5D1;
+$theme-secondary-darkmode: #B978D4;
+$theme-danger-darkmode: #F57466;
+$theme-success-darkmode: #6DD89A;
+$theme-warning-darkmode: #F6D961;
+$theme-info-darkmode: #89CDFA;
+$theme-accent-darkmode: #EF9D54;
+$theme-background-color-darkmode: $midnight-blue;
+$theme-text-color-darkmode: $clouds; 
+
+// Social Media Colors
+$dribbble-color: #ed4584;
+$facebook-color: #365397;
+$flickr-color: #ea0066;
+$github-color: #2f2f2f;
+$google-color: #4285f4;
+$instagram-color: #396d9a;
+$linkedin-color: #006db3;
+$pinterest-color: #ce1a19;
+$skype-color: #00acf4;
+$tumblr-color: #304c68;
+$twitter-color: #00a9f1;
+$vimeo-color: #48b6ed;
+$youtube-color:  #ff3333;

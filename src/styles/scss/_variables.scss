@@ -1,0 +1,13 @@
+@import './colors';
+@import '../../../node_modules/scss-google-fonts/src/GoogleFonts.scss';
+
+@include google-font( 'Indie Flower' );
+@include google-font( 'Raleway' );
+@include google-font( 'Open Sans' );
+
+#logo {
+    font-family: 'Indie Flower';
+}
+
+$headings-font: 'Raleway';
+$body-font: 'Open Sans';

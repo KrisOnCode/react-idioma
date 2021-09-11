@@ -1,0 +1,247 @@
+/* Variables */
+/* Color Variables */
+/* Color Pallete Flat UI*/
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+#logo {
+  font-family: "Indie Flower";
+}
+
+h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h4 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h5 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h6 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.large {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.small {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.label {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Light Mode */
+body {
+  background-color: #ffffff;
+  color: #2c3e50;
+}
+
+.navbar-custom {
+  background-color: #ffffff;
+  color: #2c3e50;
+}
+.navbar-custom .navbar-brand {
+  color: #2c3e50;
+}
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
+  color: #2c3e50;
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: #2c3e50;
+}
+.navbar-custom .navbar-nav .nav-link:hover, .navbar-custom .navbar-nav .nav-link:focus {
+  color: #2c3e50;
+}
+.navbar-custom .navbar-nav .nav-link.disabled {
+  color: #2c3e50;
+}
+.navbar-custom .navbar-nav .show > .nav-link,
+.navbar-custom .navbar-nav .nav-link.active {
+  color: #2c3e50;
+}
+.navbar-custom .navbar-text {
+  color: #2c3e50;
+}
+.navbar-custom .navbar-text a,
+.navbar-custom .navbar-text a:hover,
+.navbar-custom .navbar-text a:focus {
+  color: #2c3e50;
+}
+
+.btn-primary {
+  background-color: #2980b9;
+  color: #ffffff;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+body.dark-mode .navbar-custom {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+body.dark-mode .navbar-custom .navbar-brand {
+  color: #ecf0f1;
+}
+body.dark-mode .navbar-custom .navbar-brand:hover, body.dark-mode .navbar-custom .navbar-brand:focus {
+  color: #ecf0f1;
+}
+body.dark-mode .navbar-custom .navbar-nav .nav-link {
+  color: #ecf0f1;
+}
+body.dark-mode .navbar-custom .navbar-nav .nav-link:hover, body.dark-mode .navbar-custom .navbar-nav .nav-link:focus {
+  color: #ecf0f1;
+}
+body.dark-mode .navbar-custom .navbar-nav .nav-link.disabled {
+  color: #ecf0f1;
+}
+body.dark-mode .navbar-custom .navbar-nav .show > .nav-link,
+body.dark-mode .navbar-custom .navbar-nav .nav-link.active {
+  color: #ecf0f1;
+}
+body.dark-mode .navbar-custom .navbar-text {
+  color: #ecf0f1;
+}
+body.dark-mode .navbar-custom .navbar-text a,
+body.dark-mode .navbar-custom .navbar-text a:hover,
+body.dark-mode .navbar-custom .navbar-text a:focus {
+  color: #ecf0f1;
+}
+body.dark-mode .dark-mode-toggle > button {
+  color: #95a5a6;
+}
+body.dark-mode .dark-mode-toggle > button:last-child {
+  color: #89CDFA;
+}
+body.dark-mode .btn-primary {
+  background-color: #63A5D1;
+  color: #ffffff;
+}
+
+/* Toggler */
+.dark-mode-toggle {
+  display: flex;
+  margin: 0 auto;
+}
+.dark-mode-toggle > button {
+  font-size: 1.2em;
+  background: none;
+  border: none;
+  color: #f1c40f;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.dark-mode-toggle > button:last-child {
+  color: #7f8c8d;
+}
+.dark-mode-toggle > button:focus {
+  outline: none;
+}
+
+.toggle-control {
+  position: relative;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+}
+
+input[type=checkbox].dmcheck {
+  width: 40px;
+  height: 10px;
+  background: #34495e;
+  position: relative;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  vertical-align: 2px;
+  outline: none;
+}
+input[type=checkbox].dmcheck:checked + label {
+  left: 30px;
+}
+input[type=checkbox].dmcheck:focus-visible {
+  outline: solid 2px #ffffff;
+}
+input[type=checkbox].dmcheck + label {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: absolute;
+  left: 2px;
+  background: #ffffff;
+  opacity: 0.9;
+  background-color: #ecf0f1;
+}

@@ -1,0 +1,62 @@
+/* Dark Mode */
+body.dark-mode {
+    background-color: $theme-background-color-darkmode;
+    color: $theme-text-color-darkmode;
+    
+    .navbar-custom {
+      background-color: $theme-background-color-darkmode;
+      color: $theme-text-color-darkmode;
+      .navbar-brand {
+        color: $theme-text-color-darkmode;
+    
+        &:hover,
+        &:focus {
+          color: $theme-text-color-darkmode;
+        }
+      }
+    
+      .navbar-nav {
+        .nav-link {
+          color: $theme-text-color-darkmode;
+    
+          &:hover,
+          &:focus {
+            color: $theme-text-color-darkmode;
+          }
+    
+          &.disabled {
+            color: $theme-text-color-darkmode;
+          }
+        }
+    
+        .show > .nav-link,
+        .nav-link.active {
+          color: $theme-text-color-darkmode;
+        }
+      }
+    
+    
+      .navbar-text {
+        color: $theme-text-color-darkmode;
+    
+        a,
+        a:hover,
+        a:focus  {
+          color: $theme-text-color-darkmode;
+        }
+      }
+    }
+  
+    .dark-mode-toggle > button {
+      color: $concrete;
+      &:last-child {
+        color: $theme-info-darkmode;
+      }
+    }
+
+    .btn-primary {
+      background-color: $theme-primary-darkmode;
+      color: $white;
+    }
+  }
+  

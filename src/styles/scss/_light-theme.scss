@@ -1,0 +1,53 @@
+/* Light Mode */
+body {
+    background-color: $theme-background-color;
+    color: $theme-text-color;
+  }
+  
+  .navbar-custom {
+    background-color: $theme-background-color;
+    color: $theme-text-color;
+    .navbar-brand {
+      color: $theme-text-color;
+  
+      &:hover,
+      &:focus {
+        color: $theme-text-color;
+      }
+    }
+  
+    .navbar-nav {
+      .nav-link {
+        color: $theme-text-color;
+  
+        &:hover,
+        &:focus {
+          color: $theme-text-color;
+        }
+  
+        &.disabled {
+          color: $theme-text-color;
+        }
+      }
+  
+      .show > .nav-link,
+      .nav-link.active {
+        color: $theme-text-color;
+      }
+    }
+  
+    .navbar-text {
+      color: $theme-text-color;
+  
+      a,
+      a:hover,
+      a:focus  {
+        color: $theme-text-color;
+      }
+    }
+  }
+
+  .btn-primary {
+    background-color: $theme-primary;
+    color: $white;
+  }
