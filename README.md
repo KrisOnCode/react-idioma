@@ -16,7 +16,7 @@
 
 <p align="center">
 	<strong>
-        <a href="https://zealous-kilby-b198d9.netlify.app/">Project Demo</a>
+        <a href="https://suspicious-nightingale-82800d.netlify.app/">Project Demo</a>
 	</strong>
 </p>
 
