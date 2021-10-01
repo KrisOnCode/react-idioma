@@ -6,7 +6,7 @@
 
 <div align="center">
 	<h1>React Dark Mode</h1>
-	<img src="https://krisoncode.s3.amazonaws.com/project-assets/react-darkmode/darkmode-logo.png" height="350" alt="project-logo">
+	<img src="https://krisoncode.s3.amazonaws.com/project-assets/react-idioma/idioma-logo.png" height="350" alt="project-logo">
 </div>
 
 
@@ -26,12 +26,24 @@
 
 <table>
   <tr>
-    <td>Dark Mode</td>
-    <td>Light Mode</td>
+    <td>English</td>
+    <td>Español</td>
+    <td>Français</td>
   </tr>
   <tr>
-     <td valign="top"><img src="https://krisoncode.s3.amazonaws.com/project-assets/react-darkmode/darkmode.png" height="200" alt="screenshot2"></td> 
-    <td valign="top"><img src="https://krisoncode.s3.amazonaws.com/project-assets/react-darkmode/lightmode.png" height="200" alt="screenshot2"></td> 
+     <td valign="top"><img src="https://krisoncode.s3.amazonaws.com/project-assets/react-idioma/idioma-en.png" height="200" alt="screenshot2"></td> 
+    <td valign="top"><img src="https://krisoncode.s3.amazonaws.com/project-assets/react-idioma/idioma-es.png" height="200" alt="screenshot2"></td> 
+	<td valign="top"><img src="https://krisoncode.s3.amazonaws.com/project-assets/react-idioma/idioma-fr.png" height="200" 	alt="screenshot2"></td> 
+  </tr>
+	<tr>
+    <td>Italiano</td>
+    <td>Deutsch</td>
+    <td>Português</td>
+  </tr>
+  <tr>
+     <td valign="top"><img src="https://krisoncode.s3.amazonaws.com/project-assets/react-idioma/idioma-it.png" height="200" alt="screenshot2"></td> 
+    <td valign="top"><img src="https://krisoncode.s3.amazonaws.com/project-assets/react-idioma/idioma-de.png" height="200" alt="screenshot2"></td> 
+	<td valign="top"><img src="https://krisoncode.s3.amazonaws.com/project-assets/react-idioma/idioma-pe.png" height="200" 	alt="screenshot2"></td> 
   </tr>
  </table>
  
